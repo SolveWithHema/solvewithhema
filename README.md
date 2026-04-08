@@ -17,6 +17,7 @@
 ![HTML](https://img.shields.io/badge/HTML%2FCSS-20%25-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-10%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-10%25-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-App%20Service%20%7C%20SQL%20%7C%20Blob-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 A production-quality, full-stack platform built around a custom edible art brand — showcasing real-world C# development through clean architecture, a fully managed cloud database, and a secure admin CMS. Runs on live production Azure infrastructure.
 
@@ -62,6 +63,8 @@ EdibleArtByHema.sln
 ![HTML](https://img.shields.io/badge/HTML-45%25-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-40%25-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-15%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Azure](https://img.shields.io/badge/Azure-Static%20Web%20Apps-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-DNS%20%7C%20CDN%20%7C%20SSL-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 A fully responsive site for a portrait and lifestyle photographer — handling end-to-end client booking from package browsing to Calendly scheduling to deposit confirmation.
 
