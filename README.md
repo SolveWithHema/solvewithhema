@@ -46,7 +46,7 @@ EdibleArtByHema.sln
 
 ### 📸 Hannah Midha Photography
 **Production photography portfolio & client booking site**
-🔗 [proud-bay-0ce84a91e.1.azurestaticapps.net](https://proud-bay-0ce84a91e.1.azurestaticapps.net)
+🔗 [photography.hannahmidha.com](https://photography.hannahmidha.com)
 
 A fully responsive site for a portrait and lifestyle photographer — handling end-to-end client booking from package browsing to Calendly scheduling to deposit confirmation.
 
