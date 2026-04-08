@@ -81,7 +81,7 @@ A fully responsive site for a portrait and lifestyle photographer — handling e
 - Dynamic Calendly integration — each package card loads its own event type into a single inline embed
 - `IntersectionObserver`-based scroll reveal animations with staggered entrance effects
 - Mobile-first responsive layout with hamburger nav, photo collage hero, and hover lift effects
-- Deposit flow via Venmo & PayPal after Calendly selection
+- Deposit flow — Venmo & PayPal links for clients to confirm booking after Calendly selection
 - Custom domain configured via Cloudflare DNS (CNAME) + Azure custom domain verification with auto-provisioned SSL
 
 ---
