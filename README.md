@@ -45,7 +45,7 @@ EdibleArtByHema.sln
 
 **Highlights:**
 - Production Azure infrastructure — Azure App Service, Azure SQL Database, and Azure Blob Storage (self-managed)
-- Self-funded at $0 hosting cost — Azure free tier with Cloudflare handling domain routing, maintaining a live production URL
+- Self-funded at minimal cost — Azure free tier with Cloudflare handling domain routing, maintaining a live production URL
 - Azure Blob Storage for image uploads — integrated across Web and Admin projects
 - SQL-driven featured creations carousel
 - Full-text search across articles, tags, and descriptions
