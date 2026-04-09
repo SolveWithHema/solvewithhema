@@ -45,7 +45,7 @@ EdibleArtByHema.sln
 
 **Highlights:**
 - Production Azure infrastructure — Azure App Service, Azure SQL Database, and Azure Blob Storage (self-managed)
-- Self-funded at $0 infrastructure cost — Azure free tier with Cloudflare handling domain routing, maintaining a live production URL
+- Self-funded at $0 hosting cost — Azure free tier with Cloudflare handling domain routing, maintaining a live production URL
 - Azure Blob Storage for image uploads — integrated across Web and Admin projects
 - SQL-driven featured creations carousel
 - Full-text search across articles, tags, and descriptions
@@ -80,7 +80,7 @@ A fully responsive site for a portrait and lifestyle photographer — handling e
 
 **Highlights:**
 - Dynamic Calendly integration — each package card loads its own event type into a single inline embed
-- Self-funded at $0 infrastructure cost — Azure Static Web Apps free tier with Cloudflare handling DNS, CDN, and SSL
+- Self-funded at minimal cost — production-deployed on Azure infrastructure
 - `IntersectionObserver`-based scroll reveal animations with staggered entrance effects
 - Mobile-first responsive layout with hamburger nav, photo collage hero, and hover lift effects
 - Deposit flow — Venmo & PayPal links for clients to confirm booking after Calendly selection
