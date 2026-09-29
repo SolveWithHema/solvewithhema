@@ -1,182 +1,159 @@
-# Hema Anand — SolveWithHema
+# Hema Anand | SolveWithHema
 
-**Full-stack developer** with enterprise systems experience and a passion for building production-deployed web applications — from ASP.NET Core MVC platforms with clean architecture to AI-integrated client-facing sites and REST APIs.
+Full-stack .NET developer with 20+ years of enterprise experience, now building and running production web applications on Azure. I work across the stack, from ASP.NET Core MVC platforms with clean architecture to AI-integrated client sites and third-party API integrations.
 
-💼 [LinkedIn](https://www.linkedin.com/in/hemaanand/) &nbsp;|&nbsp; 💻 [GitHub](https://github.com/SolveWithHema)
+[LinkedIn](https://www.linkedin.com/in/hemaanand/) &nbsp;|&nbsp; [GitHub](https://github.com/SolveWithHema)
 
 ---
 
-## 🚀 Live Projects
+## Live Projects
 
-### 🎂 Edible Art by Hema
+### Edible Art by Hema
 **Full-stack ASP.NET Core MVC web application**
-🔗 [edibleartbyhema.com](https://edibleartbyhema.com)
-🗓 Launched March 19th 2026 — actively developed, iterating with agile methodology
+[edibleartbyhema.com](https://edibleartbyhema.com) &nbsp;·&nbsp; Site live since March 19, 2026. Actively developed in agile iterations.
 
-![C#](https://img.shields.io/badge/C%23-60%25-239120?style=flat-square&logo=csharp&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML%2FCSS-20%25-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-10%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-10%25-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-App%20Service%20%7C%20SQL%20%7C%20Blob-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
-A production-quality, full-stack platform built around a custom edible art brand — showcasing real-world C# development through clean architecture, a fully managed cloud database, and a secure admin CMS. Runs on live production Azure infrastructure.
+A production platform built for an upcoming edible art business, with clean architecture, a managed cloud database, and a secure admin CMS. Began as a portfolio piece and growing into the site the business runs on.
 
 | Layer | Technology |
 |---|---|
-| Framework | ASP.NET Core MVC (.NET 8) |
+| Framework | ASP.NET Core MVC (.NET 10) |
 | Language | C# |
 | Database | Azure SQL Database |
-| ORM | Entity Framework Core 8 |
-| Auth | Cookie Authentication + Claims Identity |
+| ORM | Entity Framework Core 10 |
+| Auth | Cookie Authentication, Claims Identity |
 | Frontend | Bootstrap 5, HTML5, CSS3, JavaScript |
 | Storage | Azure Blob Storage |
-| Architecture | Clean Architecture, Dependency Injection |
+| Architecture | Clean Architecture, Dependency Injection, Repository Pattern |
 | Hosting | Azure App Service |
-| Deployment | Visual Studio Publish → Azure App Service |
-| Domain & DNS | GoDaddy (domain registration) + Cloudflare (DNS, CDN, SSL) |
+| Deployment | Visual Studio Publish to Azure App Service |
+| Domain & DNS | GoDaddy (registration), Cloudflare (DNS, CDN, SSL) |
 
 **Solution structure (3-project clean architecture):**
 ```
 EdibleArtByHema.sln
-├── EdibleArtByHema.Web      ← Public-facing portfolio site
-├── EdibleArtByHema.Core     ← Shared models, EF Core DbContext, services (private)
-└── EdibleArtByHema.Admin    ← Secure content management app (private)
+├── EdibleArtByHema.Web      Public-facing site
+├── EdibleArtByHema.Core     Shared models, EF Core DbContext, services
+└── EdibleArtByHema.Admin    Secure content management app
 ```
 
 **Highlights:**
-- Production Azure infrastructure — Azure App Service, Azure SQL Database, and Azure Blob Storage (self-managed)
-- Self-funded at minimal cost — Azure free tier with Cloudflare handling domain routing
-- Azure Blob Storage for image uploads — integrated across Web and Admin projects
-- SQL-driven featured creations carousel
-- Full-text search across articles, tags, and descriptions
-- Interactive Platter Builder — select ingredients, discover matching dishes
-- *Surprise Me* random mystery basket feature (Chopped!-inspired)
-- Admin CMS with full CRUD, image upload, featured toggle, and JSON migration tool
-- Repository pattern with async `IArticleService`, custom file logger, code-first EF Core migrations
+- Migrated all three projects from .NET 8 to .NET 10 with EF Core 10, using a tagged rollback point for safe deployment
+- Azure Blob Storage image uploads shared across the Web and Admin projects
+- Shop page with interactive order builders and pricing logic
+- SQL-driven featured creations carousel and full-text search across articles, tags, and descriptions
+- Interactive Platter Builder: select ingredients and discover matching dishes
+- *Surprise Me* mystery basket feature, inspired by the show Chopped
+- Admin CMS with full CRUD, image upload, featured toggle, and a JSON data migration tool
+- Async `IArticleService` repository, custom file logger, and code-first EF Core migrations
 
 ---
 
-### 📸 Hannah Midha Photography
-**Production photography portfolio & client booking site**
-🔗 [photography.hannahmidha.com](https://photography.hannahmidha.com)
-🗓 Launched April 8th 2026 — actively developed, iterating with agile methodology
+### Hannah Midha Photography
+**Portfolio and client booking site**
+[photography.hannahmidha.com](https://photography.hannahmidha.com) &nbsp;·&nbsp; Launched April 8, 2026
 
-![HTML](https://img.shields.io/badge/HTML-45%25-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-40%25-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-15%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Azure](https://img.shields.io/badge/Azure-Static%20Web%20Apps-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-DNS%20%7C%20CDN%20%7C%20SSL-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-A fully responsive site for a portrait and lifestyle photographer — handling end-to-end client booking from package browsing to Calendly scheduling to deposit confirmation.
+A responsive site for a portrait and lifestyle photographer that handles the full client booking flow, from browsing packages to Calendly scheduling to deposit confirmation.
 
 | Layer | Technology |
 |---|---|
 | Frontend | HTML5, CSS3, Vanilla JavaScript |
-| Fonts | Google Fonts (Cormorant Garamond, Jost) |
-| Booking | Calendly Inline Widget (dynamic multi-event) |
-| Hosting | Azure Static Web Apps (Free tier) |
+| Booking | Calendly inline widget (dynamic, multi-event) |
+| Hosting | Azure Static Web Apps |
 | CI/CD | GitHub Actions (auto-deploy on push) |
-| Domain & DNS | Cloudflare (domain registration, DNS, CDN, SSL, AI bot protection) |
+| Domain & DNS | Cloudflare (registration, DNS, CDN, SSL, AI bot protection) |
 
 **Highlights:**
-- Dynamic Calendly integration — each package card loads its own event type into a single inline embed
-- Self-funded at minimal cost — production-deployed on Azure free tier
-- `IntersectionObserver`-based scroll reveal animations with staggered entrance effects
-- Mobile-first responsive layout with hamburger nav, photo collage hero, and hover lift effects
-- Deposit flow — Venmo & PayPal links for clients to confirm booking after Calendly selection
-- Custom domain via Cloudflare DNS (CNAME) + Azure custom domain verification with auto-provisioned SSL
+- Each package card loads its own Calendly event type into a single inline embed
+- Deposit confirmation step after scheduling
+- Scroll-reveal animations built on `IntersectionObserver` with staggered entrances
+- Mobile-first layout with hamburger navigation and a photo collage hero
+- Custom domain via Cloudflare CNAME and Azure domain verification with auto-provisioned SSL
 
 ---
 
-### 🖊️ Notary Services — Hema Anand
-**AI-powered booking & information site for a live notary services business**
-🔗 [notaryservices.hemaanand.com](https://notaryservices.hemaanand.com)
-🗓 Launched June 1st 2026 — live production
+### Notary Services
+**AI-assisted booking and information site for a live notary business**
+[notaryservices.hemaanand.com](https://notaryservices.hemaanand.com) &nbsp;·&nbsp; Launched June 1, 2026
 
-![HTML](https://img.shields.io/badge/HTML-35%25-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-40%25-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-25%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Azure](https://img.shields.io/badge/Azure-Static%20Web%20Apps-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini%20AI-FAQ%20Chatbot-4285F4?style=flat-square&logo=google&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-DNS%20%7C%20CDN%20%7C%20SSL-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini%20API-FAQ%20Chatbot-4285F4?style=flat-square&logo=google&logoColor=white)
 
-A fully static, production-deployed booking site for a commissioned NC Notary Public — integrating AI, geolocation, serverless forms, and automated appointment tracking. Hosted at $0/month.
+A static, production-deployed site for a commissioned NC Notary Public, combining an AI chatbot, geolocation-based pricing, serverless forms, and automated appointment logging.
 
 | Layer | Technology |
 |---|---|
 | Frontend | HTML5, CSS3, Vanilla JavaScript |
 | AI Chatbot | Google Gemini API (gemini-2.5-flash) |
-| Geolocation | OpenStreetMap Nominatim API — NC address validation, haversine distance calc, IRS mileage logic |
-| Booking Form | Web3Forms (serverless, no backend) |
+| Geolocation | OpenStreetMap Nominatim API |
+| Booking Form | Web3Forms (serverless) |
 | Appointment Log | Google Sheets API |
-| Hosting | Azure Static Web Apps (Free tier) |
+| Hosting | Azure Static Web Apps |
 | CI/CD | GitHub Actions (auto-deploy on push) |
 | Domain & DNS | Cloudflare (DNS, CDN, SSL, AI bot protection) |
 
 **Highlights:**
-- Gemini AI-powered FAQ chatbot — scoped to notary services context, answers client questions 24/7
-- Geolocation engine — validates NC-only addresses, calculates distance from Morrisville using haversine formula, applies IRS federal business mileage rate for travel fee logic
-- Serverless booking form via Web3Forms — submissions delivered to email, no backend required
-- Google Sheets API integration — every booking auto-logged for appointment tracking
-- Policy gate — clients must open and acknowledge booking policies PDF before submitting
-- $0/month hosting — Azure Static Web Apps free tier + Cloudflare free tier
+- Gemini-powered FAQ chatbot scoped to notary services, answering client questions around the clock
+- Travel fee engine that validates NC-only addresses, calculates distance with the haversine formula, and applies the IRS business mileage rate
+- Serverless booking form with every submission auto-logged to Google Sheets
+- Policy gate requiring clients to open and acknowledge the booking policies before submitting
+- Runs entirely on free-tier Azure and Cloudflare hosting
 
 ---
 
-## 🔒 Private Repositories
+## Private Repositories
 
-All repos are available for review upon request.
+Source code for these projects is kept private. I'm happy to walk through any of it on a screen share or grant read access on request.
 
 | Repository | Description | Stack |
 |---|---|---|
-| **EdibleArtByHema.Core** | Shared class library — EF Core DbContext, models, `IArticleService`, async repository pattern, custom `IAppLogger` | C#, EF Core 8, Azure SQL |
-| **EdibleArtByHema.Admin** | Secure internal CMS — full CRUD, image uploads to Azure Blob, featured toggle, JSON data migration tool | ASP.NET Core MVC, C#, Cookie Auth |
-| **EdibleArtByHema.Web** | Public web app source (live at edibleartbyhema.com) | ASP.NET Core MVC, Bootstrap 5 |
-| **HannahMidhaPhotography** | Booking site source (live at photography.hannahmidha.com) | HTML, CSS, JS, Azure Static Web Apps |
-| **NotaryServices** | Notary site source (live at notaryservices.hemaanand.com) | HTML, CSS, JS, Gemini AI, Azure Static Web Apps |
-
-> 💬 Happy to walk through any of these via live screen share or grant private repo access — just reach out.
+| **EdibleArtByHema.Core** | Shared class library: EF Core DbContext, models, `IArticleService`, async repository pattern, custom `IAppLogger` | C#, EF Core 10, Azure SQL |
+| **EdibleArtByHema.Admin** | Secure internal CMS: full CRUD, Azure Blob image uploads, featured toggle, JSON data migration tool | ASP.NET Core MVC, C#, Cookie Auth |
+| **EdibleArtByHema.Web** | Public web app | ASP.NET Core MVC, Bootstrap 5 |
+| **HannahMidhaPhotography** | Booking site | HTML, CSS, JS, Azure Static Web Apps |
+| **NotaryServices** | Notary booking site | HTML, CSS, JS, Gemini API, Azure Static Web Apps |
 
 ---
 
-## 💼 Prior Experience
+## Prior Experience
 
-**Systems Programmer Analyst** — College Foundation Inc (Client: NCSEAA — NC State Education Assistance Authority)
+**Systems Programmer Analyst**, College Foundation Inc. (Client: NC State Education Assistance Authority)
 
-Long-tenure role spanning multiple waves of legacy modernization, enterprise integrations, and managing public-facing web portals across NCSEAA domains — assisting NC K-12 and higher education students, families and schools.
+A long-tenure role spanning several waves of legacy modernization, enterprise integrations, and public-facing web portals serving NC K-12 and higher education students, families, and schools.
 
-- **Web Portals** — Built and maintained public-facing portals serving NC students, families, K-12 and higher education institutions
-- **Legacy Modernization (Multiple Waves)** — Successive modernization cycles: VBA → ASP.NET, iSeries / RPG → Java / Tomcat → ASP.NET Core / C#
-- **DocuSign eSignature** — Connect API, JSON webhooks, envelope automation, bulk sends, account admin
-- **Azure** — Queue Storage, message-driven architecture
-- **IIS** — Application configuration and deployment
-- **Integrations** — REST APIs, JSON webhooks, enterprise workflow automation
-- **Mixed Stack** — ASP.NET, Java, Classic ASP across multiple systems and modernization phases
-
-Each modernization wave brought new technologies, new architecture patterns, and new integration challenges — building a foundation that spans legacy systems, modern cloud, and everything in between.
+- **Web Portals:** Built and maintained statewide portals for students, families, and K-12 and higher education institutions
+- **Legacy Modernization:** Successive modernization cycles from VBA to ASP.NET, and from iSeries/RPG to Java/Tomcat to ASP.NET Core and C#
+- **DocuSign eSignature:** Connect API, JSON webhooks, envelope automation, bulk sends, account administration
+- **Azure:** Queue Storage and message-driven, async processing
+- **Integrations:** REST APIs, JSON webhooks, enterprise workflow automation
+- **Deployment:** IIS application configuration and deployment across ASP.NET, Java, and Classic ASP systems
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ```
-Backend        C# · ASP.NET Core MVC (.NET 8)
-Database       Azure SQL Database · Entity Framework Core 8
-Auth           Cookie Authentication · Claims Identity
-Frontend       HTML5 · CSS3 · JavaScript · Bootstrap 5
-AI / APIs      Google Gemini API · Web3Forms · Google Sheets API · OpenStreetMap Nominatim API
-Cloud          Microsoft Azure · Azure App Service · Azure Static Web Apps · Azure Blob Storage · Azure SQL
+Backend        C#, ASP.NET Core MVC (.NET 10), Web API
+Database       Azure SQL Database, SQL Server, Entity Framework Core 10
+Auth           Cookie Authentication, Claims Identity
+Frontend       HTML5, CSS3, JavaScript, Bootstrap 5
+AI / APIs      Google Gemini API, Google Sheets API, Web3Forms, OpenStreetMap Nominatim, Calendly
+Cloud          Azure App Service, Azure Static Web Apps, Azure Blob Storage, Azure Queue Storage, Azure SQL
 CI/CD          GitHub Actions
-Patterns       Clean Architecture · Dependency Injection · Repository Pattern
-Tools          Git · Calendly · EF Core Migrations
-DNS/CDN        Cloudflare · GoDaddy — domain registration, DNS, CDN, SSL (self-managed)
-Enterprise     DocuSign Connect API · Azure Queue Storage · IIS · JSON Webhooks · iSeries/RPG
+Patterns       Clean Architecture, Dependency Injection, Repository Pattern
+DNS/CDN        Cloudflare, GoDaddy
+Enterprise     DocuSign Connect API, IIS, JSON Webhooks, iSeries/RPG
 ```
 
 ---
 
-## 📬 Contact
+## Contact
 
-Open to full-stack, backend (.NET/C#), AI integration, and frontend roles.
+Open to full-stack and backend .NET/C# roles in the Raleigh-Durham area and remote.
 
-💼 [LinkedIn](https://www.linkedin.com/in/hemaanand/) &nbsp;|&nbsp; 💻 [GitHub](https://github.com/SolveWithHema) &nbsp;|&nbsp; 🌐 [edibleartbyhema.com](https://edibleartbyhema.com) &nbsp;|&nbsp; 🖊️ [notaryservices.hemaanand.com](https://notaryservices.hemaanand.com)
+[LinkedIn](https://www.linkedin.com/in/hemaanand/) &nbsp;|&nbsp; [GitHub](https://github.com/SolveWithHema) &nbsp;|&nbsp; [edibleartbyhema.com](https://edibleartbyhema.com) &nbsp;|&nbsp; [notaryservices.hemaanand.com](https://notaryservices.hemaanand.com)
